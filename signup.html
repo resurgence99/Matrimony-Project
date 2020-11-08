@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>No Divorce Matrimony</title>
+<!--
+	<style type="text/css">
+		a{text-decoration: none;}
+		ul {list-style-type: none;}
+		.header img{display: block;margin: 0 auto 0 auto;}
+		.pg {border: 1px solid #dddddd; width: 400px; margin: 15px auto 0 auto;
+			 }
+		li {padding: 0 0 15px 0;}
+	</style>
+-->
+
+	<link rel="stylesheet" href="/css/bootstrap.css">
+	<link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<!--		<img src ="bharat-matrimony-logo.gif">-->
+
+<div class="container">
+    <div class="row">
+    <div class="col-lg-6 offset-lg-3">
+	
+		<form action="signup.php" >
+           
+			<h3>Take the 1st step to your happy marriage! Register FREE! At No Divorce Matrimony</h3>
+			<div class="form-group row">
+       
+       <label>Profile For:</label>
+        <div class="col-12 my-3 ">
+			<select name="createdby" class="form-control">
+                <option value="">Select Matrimonial Profile For</option>
+                <option value="Myself">Myself</option>
+                <option value="Son">Son</option>
+                <option value="Daughter">Daughter</option>
+                <option value="Brother">Brother</option>
+                <option value="Sister">Sister</option>
+                <option value="Relative">Relative</option>
+                <option value="Friend">Friend</option>
+            </select></div>
+                
+                
+                <h3 class="col-12 my-3">Work Details</h3>
+                
+			<label for="city">Comapany Name :</label>
+			<input class="form-control" type="text" name="companyname"><br><br>
+                
+           
+             <label>Salary :</label><br>
+              <input type="range" min="10000" max="10000000" value="50" step="500" class="slider" id="myRange1" name="salary">
+              <p>Value: <span style="font-family: fantasy" id="demo1"></span></p><br><br>
+            
+            
+           <div class="col-12 my-3">
+			<label>Position in Company :</label>
+			<select name="position" >
+                <option value="">Select Religion</option>
+                <option value="CEO">CEO</option>
+                <option value="Developer">Developer</option>
+                <option value="Analyst">Analyst</option>
+                <option value="Designer">Designer</option>
+                <option value="Accountant">Accountant</option>
+                <option value="HR">HR</option>
+               </select></div>
+                
+                
+                
+                <h3 class="col-12 my-3">Education Details</h3>
+             <div class="col-12 my-3">   
+			<label>Education Field :</label>
+			<select name="educationfield" class="form-control">
+                <option value="">Select Education Field</option>
+                <option value="Science">Science</option>
+                <option value="Commmerce">Commmerce</option>
+                <option value="Arts">Arts</option>
+                <option value="Design">Design</option>
+                
+                 </select></div>
+                
+                
+            <div class="col-12 my-3">    
+			<label>Education Level :</label>
+			<select name="educationlevel" class="form-control">
+                <option value="">Select Education Level</option>
+                <option value="10th">10th</option>
+                <option value="12th">12th</option>
+                <option value="UG">UG</option>
+                <option value="PG">PG</option>
+                <option value="PHD">PHD</option>
+                </select></div>
+        
+		
+                
+                
+                <h3 class="col-12 my-3">General Details</h3>
+                
+                <div class="col-12 my-3">
+			<label for="Name">Name :</label>
+             <div class="col-6 my-3">
+                 <input class="form-control" type="text" name="fname"  placeholder="First Name" required></div>
+               
+                   
+                   <div class="col-6 my-3">
+                       <input class="form-control" type="text" name="lname"  placeholder="Last Name" required></div>
+                </div>
+             
+               <div class="col-12 my-3">  
+            <label>Gender :</label><br>
+            <label class="radio-inline form-control">
+              <input type="radio" name="sex" value="male" checked>Male
+            </label>
+            <label class="radio-inline">
+              <input type="radio" name="sex" value="female">Female
+            </label>
+                </div>
+                
+                
+			<label>Date of Birth :</label>
+			<input type="date" class="form-control"><br><br>
+              
+             <div class="col-12 my-3"> 
+			<label>Religion :</label>
+			<select name="religion" class="form-control">
+                <option value="">Select Religion</option>
+                <option value="Hindu">Hindu</option>
+                <option value="Muslim-Shia">Muslim-Shia</option>
+                <option value="Muslim-Sunni">Muslim-Sunni</option>
+                <option value="Muslim-Others">Muslim-Others</option>
+                <option value="Christian">Christian</option>
+                <option value="Sikh">Sikh</option>
+                <option value="Jain">Jain</option>
+                <option value="Parsi">Parsi</option>
+                <option value="Buddhist">Buddhist</option>
+                <option value="Inter-Religion">Inter-Religion</option>
+                 </select></div>
+                
+                <div class="col-12 my-3">
+                   <label>Description :</label>
+                    <textarea class="form-control" name="description"></textarea><br><br>
+                </div>
+               
+               <div class="col-12 my-3">
+                   <label>Hobbies :</label>
+                    <textarea class="form-control" name="hobbies"></textarea><br><br>
+                </div>
+                
+                
+                
+            <div class="col-12 my-3">
+			<label for="city">City :</label>
+			<input class="form-control" type="text" name="city"><br><br>
+                </div>
+                
+                
+             <div class="col-12 my-3">  
+			<label for="mob_no">Mobile Number :</label>
+			<input class="form-control" type="text" name="phone"><br><br>
+                </div>
+                
+            
+			<div class="col-12 my-3">
+             <label>Height :</label><br>
+              <input type="range" min="4" max="7" value="50" step="0.1" class="slider" id="myRange" name="height">
+              <p>Value: <span style="font-family: fantasy" id="demo"></span></p><br><br>
+                </div>
+            
+            <div class="col-12 my-3">
+			<label for="email">Email Id :</label>
+			<input class="form-control" type="email" name="email"><br><br>
+                </div>
+                
+                  <div class="col-12 my-3">  
+                <label for="password">Password :</label>
+                <input class="form-control" type="Password" name="password" ><br><br>
+                </div>
+            
+            
+            
+            <input type="submit" value="Submit">
+            </div>
+		</form>
+        </div>
+    </div>
+    </div>
+    
+</body>
+<script src="js/custom.js"></script>
+</html>
